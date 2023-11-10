@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather || API</title>
+    <!-- the Logo -->
+    <link rel="shortcut icon" href="./img_source/weather_app-favico.png" type="image/x-icon">
+    <!-- style css linked below. -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="container">
+            <div class="search-box">
+                <input 
+                type="text" 
+                placeholder="Enter a city name..." 
+                id="input-weather" 
+                value="Istanbul"
+                />
+                <button id="search-weather-btn">Search</button>
+            </div>
+            <div class="result">
+                <!-- The source of the weather data comes from script. -->
+            </div>
+        </div>
+    </div>
+    <!-- script file linked here. -->
+    <script src="app.js"></script>
+    <script src="key.js"></script>
+</body>
+
+</html>
